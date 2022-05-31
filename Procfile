@@ -1,0 +1,1 @@
+web: text-summarizer-app-sln app:app
