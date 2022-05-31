@@ -1,7 +1,7 @@
 from __future__ import unicode_literals
 from flask import Flask,render_template,url_for,request
 import nltk
-#nltk.download('stopwords')
+import os
 import spacy
 #from spacy.cli import download
 from spacy_summarization import text_summarizer
@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 # Web Scraping Pkg
 from bs4 import BeautifulSoup
-# from urllib.request import urlopen
+
 from urllib.request import urlopen
 
 # Sumy Pkg
