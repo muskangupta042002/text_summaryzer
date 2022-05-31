@@ -1,1 +1,1 @@
-web: text-summarizer-app-sln app:app
+web: py app.py
